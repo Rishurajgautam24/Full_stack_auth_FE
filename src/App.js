@@ -1,14 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
+export default function App() {
   return (
-    <div className="App bg-white">
-      <div className="flex justify-center h-96 justify-items-center content-center">
-      <h1 className='text-center text-6xl'>Coming Soon...</h1>
-      </div>
+    <div>
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
     </div>
-  );
+  )
 }
-
-export default App;
